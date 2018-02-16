@@ -9,6 +9,7 @@ object WordCount {
     val conf = new SparkConf().setMaster("local[*]")
                    .setAppName("Word Count")
     val sc = new SparkContext(conf)
+    println("hello")
     
              
   }
